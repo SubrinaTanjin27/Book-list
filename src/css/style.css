@@ -139,3 +139,6 @@ td {
 .close:hover {
   color: red;
 }
+.main-button:hover {
+  color: #6c83ff;
+}
