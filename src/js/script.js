@@ -6,11 +6,10 @@ function ShowAlert(cname, msg) {
   let div = document.createElement('div');
   div.classList.add('alert', cname);
   div.innerText = msg;
-
   header.append(div);
   setTimeout(() => {
     document.querySelector('.alert').remove();
-  }, 10000);
+  }, 3000);
 }
 
 function addBook(e) {
